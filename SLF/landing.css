@@ -1,0 +1,309 @@
+
+*{
+    font-family: 'Lobster', cursive;
+}
+
+.bg {
+    
+    width: 100%;
+    height: 100%;
+    background-image: url("landing1.jpg");
+    position: absolute;
+   
+}
+header {
+    
+    width: 100%;
+    height: 4in;
+    background-color: rgba(245, 245, 220, 0.355);
+    transform: translate(0,-20%);
+    position: relative;
+
+
+}
+header h1 {
+    font-size: 0.8in;
+    text-align: center;
+    transform: translate(0,140%);
+    color:saddlebrown;
+    
+}
+header h3 {
+    font-size: 0.2in;
+    text-align: center;
+    transform: translate(0,210%);
+    color:rgb(91, 46, 14);
+    padding-top: 20px;
+    padding-left: 50px;
+}
+nav {
+    width: 45%;
+    height: 0.5in;
+    background-color: #fff;
+    border-radius: 50px;
+    transform: translate(58%,250%);
+    padding: 10px;
+    align-content:  center;
+    box-shadow: rgba(0, 0, 0, 0.763);
+
+}
+nav a {
+    color:rgb(219, 23, 23);
+    text-align: center;
+    display:inline-block ;
+    text-decoration: none;
+    padding: 8px;
+    
+    padding-left: 20px;
+    margin-left: 25px;
+    
+    font-family: 'Lobster', cursive;
+    font-family: 'Noto Serif', serif;
+    position: relative;
+    cursor:pointer;
+    z-index: 2;
+    font-weight: 600;
+    
+
+}
+nav a::after {
+    content: '';
+    background-color:#f44556;
+    width:100%;
+    height: 100%;
+    border-radius: 50px;
+    position: absolute;
+    top: 100%;
+    left:52%;
+    transform: translate(-50% ,-50%);
+    z-index: -1;
+    opacity: 0;
+    transition: color 0.8s ;
+    transition: top 0.4s, opacity 0.5s;
+
+    
+}
+nav a:hover {
+    color: #fff;
+}
+nav a:hover::after {
+    top: 50%;
+    opacity : 1;
+    
+}
+.anime1 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-left: 120px;
+    display: flex;
+    
+
+}
+#content {
+    color: black;
+    text-align: left;
+    
+}
+.anime2 {
+    width: 300px;
+    height: 300px;
+    float: right;
+    padding-right: 100px;
+
+}
+#colleges { 
+    text-align: right;
+
+
+}
+.anime3{
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-left: 80px;
+
+
+}
+.anime4 {
+    width: 200px;
+    height: 200px;
+    float: right;
+    padding-right: 80px;
+
+}
+
+.anime5{
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-left: 80px;
+
+
+}
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+footer p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.box1 {
+    background-color: rgba(224, 217, 28, 0.225);
+    width: 80%;
+    height:2in;
+    margin-left: 3.3in;
+    transform: translate(0,40%);
+    padding: 20px;
+    border-radius: 30px;
+
+}
+.content {
+    font-size: 30px;
+}
+.box1 a:hover {
+    color: rgb(238, 131, 18);
+
+}
+
+.box2 {
+    background-color: rgba(224, 28, 70, 0.225);
+    width: 80%;
+    height:2in;
+    margin-right: 4.3in;
+    transform: translate();
+    padding: 20px;
+    border-radius: 30px;
+    text-align: right;
+
+}
+.college {
+    font-size: 30px;
+}
+.box2 a:hover {
+    color: rgb(240, 16, 16);
+
+}
+
+.box3 {
+    background-color: rgba(28, 126, 224, 0.225);
+    width: 85%;
+    height:2in;
+    margin-left: 2.7in;
+    transform: translate();
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+.rentals {
+    font-size: 30px;
+}
+.box3 a:hover {
+    color: rgb(101, 24, 202);
+
+}
+
+.box4 {
+    text-align: right;
+    background-color: rgba(28, 224, 119, 0.225);
+    width: 85%;
+    height:2in;
+    margin-right: 3.7in;
+    transform: translate();
+    padding: 20px;
+    border-radius: 30px;
+
+}
+.near {
+    font-size: 30px;
+}
+.box4 a:hover {
+    color: rgb(47, 153, 45);
+
+}
+
+.box5 {
+    background-color: rgba(217, 28, 224, 0.225);
+    width: 80%;
+    height:2in;
+    margin-left: 3.5in;
+    transform: translate();
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+.links {
+    font-size: 30px;
+}
+.box5 a:hover {
+    color: rgb(124, 19, 159);
+
+}
+
+
+
+.about h2 {
+    text-align: center ;
+    font-size: 30px;
+    text-decoration: underline ;
+}
+
+.boxab {
+    width: 60%;
+    height: 2in;
+    background-color: rgba(255, 0, 242, 0.156);
+    box-shadow: #333;
+    border-radius: 15px;
+    transform: translate(35%);
+    
+    
+
+}
+.boxab p {
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    transform: translate(0,50%);
+    margin: 40px;
+    text-decoration: none;
+}
+
+.animeab {
+    width: 260px;
+    height: 260px;
+    transform: translate(230%,-20%);
+   
+}
+
+button{
+    width:100px;
+    height:40px;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.325);
+    
+    border: 0px;
+   margin
+
+}
+ button p {
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    padding-top: 9px;
+ }
+
+ 
+

@@ -1,0 +1,38 @@
+button {
+    
+    background-color: rgba(221, 91, 30, 0);
+    border: 5px;
+    width: 10in;
+    height: 1in;
+    border-radius: 12px;
+    transform: translate(30%,600%);
+    padding: 20px;
+    text-decoration: none;
+    transition:  3s;
+    
+
+
+}
+
+button p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    transition:3s;
+    opacity: 1;
+
+}
+button a {
+    text-decoration: none;
+    
+}
+
+button p:hover {
+    background-color: rgba(127, 255, 212, 0.31);
+    border-radius: 20px;
+    border:12px;
+    transition: 1.5s;
+}

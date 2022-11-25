@@ -1,0 +1,195 @@
+.background {
+    linear-gradient:(rgba(0, 0, 50, 0.486) ,rgba(0, 0, 50, 0.486) ) ;
+    width: 100%;
+    height: 100vh;
+    background-image: url("login.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+     
+}
+
+.anime {
+    position:relative;
+    /*text-align: center;*/
+    float: center;
+    padding-left: 40%;
+    padding-top: 35%;
+    width: 300px;
+    height: 300px;
+    transform: translate(0,-10%);
+    
+}
+
+.box { 
+    border-radius: 15px;
+    background-color: rgba(241, 190, 241, 0.555);
+    width: 100%;
+    max-width: 550px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    padding-bottom: 30px;
+    transform: translate(-50%,-50%);
+    background-attachment: fixed;
+    
+}
+h1 {
+    color: rgba(9, 9, 9, 0.872);
+    margin-bottom: 30px;
+    color: rgb(95, 18, 167);
+    border-radius: 20px;
+    border-color: rgba(158, 96, 215, 0.432);
+    
+}
+.input-field :hover {
+    color: rgb(255, 0, 17);
+}
+.input-field {
+   padding: 5px;
+   
+   display: flex;
+   margin-left: 0.7in;
+   max-height: 65px ;
+   transition: max-height 0.45s;
+   overflow: hidden;
+   
+  
+  
+}
+input {
+    width: 80%;
+    height: 40px;
+}
+.btn {
+    
+    width: 100%;
+    display: flex;
+justify-content: space-between;
+
+}
+.btn button {
+    flex-basis: 25%;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(128, 30, 220);
+    border-radius: 20px;
+    border: 0px;
+    margin: auto;
+    margin-top: 0.5in;
+    transition: background-color 1s;
+
+}
+.in-grp {
+    height : 200px;
+}
+.btn button.disable {
+    background-color: rgb(218, 218, 218);
+    color: rgb(17, 17, 17);
+}
+.forget a {
+    color: blue;
+    text-decoration: none;
+}
+.forget {
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 10px;
+    
+    text-align: left;
+    padding-left: 0.76in;
+}
+@media only screen and (max-width: 419px) {
+    .box{
+    border-radius: 14px;
+    background-color: rgba(241, 190, 241, 0.555);
+    width: 80%;
+    max-width: 400px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    padding-bottom: 30px;
+    transform: translate(-50%,-50%);
+    background-attachment: fixed;
+    }
+    .anime{
+        position:relative;
+        text-align: center;
+        padding-left: 20%;
+        padding-top: 100%;
+        width: 250px;
+        height: 250px;
+    }
+ }
+
+
+
+ .disable a {
+    text-decoration: none;
+ }
+ .disable a:hover {
+    color:rgb(82, 22, 138)
+ }
+
+ nav {
+    width: 80%;
+    height: 0.3in;
+    background-color: rgba(156, 22, 209, 0.356);
+    border-radius: 30px;
+    transform: translate(15%,20%);
+    padding: 10px;
+    align-content:  center;
+    box-shadow: rgba(0, 0, 0, 0.763);
+
+}
+nav a {
+    color: #fff;
+    text-align: center;
+    display:inline-block ;
+    text-decoration: none;
+    padding: 8px;
+    
+    padding-left: 20px;
+    margin-left: 95px;
+    padding-bottom: 8px;
+    
+    font-family: 'Lobster', cursive;
+    font-family: 'Noto Serif', serif;
+    position: relative;
+    cursor:pointer;
+    z-index: 2;
+    font-weight: 600;
+    
+
+}
+nav a::after {
+    content: '';
+    background-color:#f44556;
+    width:100%;
+    height: 100%;
+    border-radius: 50px;
+    position: absolute;
+    top: 100%;
+    left:52%;
+    transform: translate(-50% ,-50%);
+    z-index: -1;
+    opacity: 0;
+    transition: color 0.8s ;
+    transition: top 0.4s, opacity 0.5s;
+
+    
+}
+nav a:hover {
+    color: #fff;
+}
+nav a:hover::after {
+    top: 50%;
+    opacity : 1;
+    
+}
+
+
+
+
